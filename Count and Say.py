@@ -1,5 +1,4 @@
 # Copyright: Xiaoyi (Sherry) Zhu
-# Email: zhuxy9474@gmail.com
 
 '''
 [LeetCode #38]
