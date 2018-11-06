@@ -49,7 +49,7 @@ class Solution(object):
                             c = c + str(counter)
                     fl = True
                 else:          
-					if fl and i != 0:
+		    if fl and i != 0:
                         c = c + s[i]
                     else:
                         c = c + '1' + s[i]
