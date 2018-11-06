@@ -34,6 +34,7 @@ class Solution(object):
             i = 0
             c = ''
             fl = True
+		
             while i < len(s)-1:
                 if s[i] == s[i+1]:
                     if fl:
@@ -42,7 +43,6 @@ class Solution(object):
                         counter = 2
                     
                     if i+1 == len(s) - 1:
-                        afl = True
                         c = c + '2' + s[i]
                     else:
                         if i != 0 and s[i+1] != s[i+2]:
@@ -58,6 +58,7 @@ class Solution(object):
         
             tail = s[i]
             counter = '1'
+	
             if fl:
                 tail = '' 
                 counter = ''
